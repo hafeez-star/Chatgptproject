@@ -11,6 +11,8 @@ const Profile = () => {
             Welcome to your profile page. This area can be expanded with user settings, account details, and activity logs.
           </p>
         </div>
+
+        
       </div>
     </div>
   );
