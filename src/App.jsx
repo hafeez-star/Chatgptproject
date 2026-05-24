@@ -6,6 +6,7 @@ import AgeCalculator from "./pages/AgeCalculator";
 import PasswordGenerator from "./pages/PasswordGenerator";
 import QRGenerator from "./pages/QRGenerator";
 import ColorPicker from "./pages/ColorPicker";
+
 import ImageCompressor from "./pages/ImageCompressor";
 import PDFTools from "./pages/PDFTools";
 import AIChat from "./pages/AIChat";
