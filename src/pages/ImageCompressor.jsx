@@ -20,7 +20,7 @@ const [count , setCount] = useState(0);
     <div className="min-h-screen bg-gray-100 flex justify-center items-center p-10">
       <div className="bg-white p-10 rounded-3xl shadow text-center">
         <h1 className="text-4xl font-bold mb-6">Image Compressor</h1>
-
+<h1>Count{count}</h1>
         <input type="file" onChange={compressImage} />
 
         {image && (
