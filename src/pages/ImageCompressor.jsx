@@ -14,6 +14,7 @@ const [count , setCount] = useState(0);
 
     setImage(URL.createObjectURL(compressedFile));
   };
+  setCount(count + 10);
 
   return (
     <div className="min-h-screen bg-gray-100 flex justify-center items-center p-10">
