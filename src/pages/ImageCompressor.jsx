@@ -3,7 +3,7 @@ import imageCompression from "browser-image-compression";
 
 const ImageCompressor = () => {
   const [image, setImage] = useState(null);
-
+const [count , setCount] = useState(0);
   const compressImage = async (e) => {
     const file = e.target.files[0];
 
